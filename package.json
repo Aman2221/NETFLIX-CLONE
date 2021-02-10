@@ -7,10 +7,16 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
     "axios": "^0.21.1",
+    "firebase": "^8.2.6",
+    "i": "^0.3.6",
+    "movie-trailer": "^2.1.0",
+    "npm": "^7.5.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
-    "web-vitals": "^1.1.0"
+    "react-youtube": "^7.13.1",
+    "web-vitals": "^1.1.0",
+    "youtube": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

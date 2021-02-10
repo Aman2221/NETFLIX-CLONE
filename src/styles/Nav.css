@@ -1,0 +1,60 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px;
+  height: 50px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.8s;
+}
+.nav_black {
+  background-color: #000;
+}
+.logo {
+  position: fixed;
+  left: 20;
+  top: -1px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+@media screen and (max-width: 480px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+    height: 50px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.8s;
+  }
+  .nav_black {
+    background-color: #000;
+  }
+  .logo {
+    position: fixed;
+    left: 20;
+    top: -1px;
+    width: 80px;
+    object-fit: contain;
+  }
+
+  .avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+  }
+}

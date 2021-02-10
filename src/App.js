@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./components/Nav";
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Row from './components/Row'
@@ -8,6 +9,7 @@ import './App.css';
 function App(props) {
   return (
     <div className="App">
+      <Nav/>
       <Header/>
       <Row 
         title = 'Netflix Originals' 
