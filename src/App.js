@@ -15,10 +15,6 @@ function App(props) {
         isLargeRow
       />
       <Row 
-        title = 'Top rated'
-        fetchUrl={requests.fetchTopRated}
-      />
-      <Row 
         title = 'Action Movies' 
         fetchUrl={requests.fetchActionMovies}
         isLargeRow
@@ -43,6 +39,10 @@ function App(props) {
         title = 'Documentaries'
         fetchUrl={requests.fetchDocumentaries}
         isLargeRow
+      />
+      <Row 
+        title = 'Top rated'
+        fetchUrl={requests.fetchTopRated}
       />
       <Footer/>
     </div>
