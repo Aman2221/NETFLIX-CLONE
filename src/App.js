@@ -16,22 +16,25 @@ function App(props) {
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
       />
+      {/*
       <Row 
         title = 'Action Movies' 
         fetchUrl={requests.fetchActionMovies}
         isLargeRow
       />
+      */}
       <Row 
         title = 'Comedy Movies' 
         fetchUrl={requests.fetchComedyMovies}
         isLargeRow
       />
+      {/*
       <Row 
         title = 'Horror Movies'
         fetchUrl={requests.fetchHorrorMovies}
         isLargeRow
       />
-      
+      */}
       <Row 
         title = 'Romance Movies' 
         fetchUrl={requests.fetchRomanceMovies}
